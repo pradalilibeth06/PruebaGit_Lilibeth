@@ -1,0 +1,51 @@
+body{
+
+
+    h1{
+        background-color: mediumorchid;
+        color: black;
+        font-size: 30px;
+       margin: 20px;
+       border-style: double;
+       
+        
+    }
+
+    label{
+        color: black;
+        background-color: lightcoral;
+        font-size: 25px;
+        padding: 2px;
+        border-style: inset;
+       
+    }
+
+    input{
+        color: darkblue;
+        font-size: 20px;
+        border-bottom: 10px;
+       
+       
+    }
+  
+
+
+    textarea{
+        color: black;
+        font-size: 15px;
+        display: block;
+       
+       
+    
+    }
+
+    
+
+    background-color: plum;
+    
+
+   
+
+    
+
+}

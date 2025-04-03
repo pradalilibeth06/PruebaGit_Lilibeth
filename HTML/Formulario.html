@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+
+    <center>
+
+    <h1><i>Registro de usuarios</i></h1>
+
+    <form action="Procesar.php" method="post"></form>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+
+    <label for="e-mail">E-mail:</label>
+    <input type="text" id="e-mail" name="e-mail" required>
+    <br><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edads" name="edad" min="1" max="100">
+    <br><br>
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="passwor" required>
+    <br><br> 
+
+    <label for="genero">Genero:</label>
+    <select name="genero" id="genero">
+        <option value="masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+        <option value="otro">Otro</option>
+    </select>
+    <br><br>
+
+     <label for="pais">Pais</label>
+    <select name="pais" id="Pais"> 
+        <option value="venezuela">Venezuela</option>
+        <option value="colombia">Colombia</option>
+        <option value="chile">Chile</option>
+    </select>
+
+    <br><br>
+
+    <label for="hobbies">Hobbies:</label>
+    <br><br>
+    <input type="checkbox" name="hobbies" id="Musica" value="musica"> 
+    <label for="musica">Musica</label>
+    <input type="checkbox" name="hobbies" id="lectura" value="lectura">
+    <label for="lectura">Lectura</label>
+    <input type="checkbox" name="hobbies" id="deporte" value="deporte">
+    <label for="deporte">Deporte</label>
+    <br><br>
+
+    <label>Comentario</label>
+    <br><br>
+    <textarea name="comentario" id="comentario" cols="40" rows="4"></textarea>
+    <br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+    <br>
+
+    
+
+</center>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

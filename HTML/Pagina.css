@@ -1,0 +1,43 @@
+.pagina{
+    background-color: blueviolet;
+
+
+}
+.nav{
+    background-color: blue;
+}
+
+h1{
+    background-color: darksalmon;
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    margin: 15px;
+}
+
+footer{
+    background-color: cyan;
+    color: crimson;
+    font-size: 20px;
+}
+
+button{
+    background-color: beige;
+    color: black;
+}
+
+button:hover{
+    background-color: paleturquoise;
+}
+@media (max-width 300px;) {
+    nav{
+        background: blucle;
+        flex-direction: column;
+     
+    }
+}
+
+
+
+
+
