@@ -1,0 +1,27 @@
+.nav-bar{
+    text-decoration-line: none;
+    background-color: aqua;
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+    
+
+}
+.nav-bar:hover{
+background-color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 300px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+
+    .nav-bar{
+        margin: 10px 0px;
+    }
+}
+
